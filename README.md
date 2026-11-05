@@ -2,7 +2,7 @@
 A lightweight, local-first API token management utility designed to help developers simplify credential workflows, safely inject tokens, and avoid hardcoding secrets.
 
 ## 🚀 Features
-- **Local-First & Secure:** Tokens are encrypted and stored strictly on your local machine using [XDG / Keyring].
+- **Local-First & Secure:** Tokens are encrypted and stored strictly on your local machine using [system Keyring].
 - **Dynamic Key Injection:** Safely inject variables into your active runtime environments without risky sidecars.
 - **Provider Agnostic:** Built to seamlessly manage keys for OpenAI, Anthropic, Gemini, DeepSeek, and custom endpoints.
 - **Automatic Cooldowns:** Built-in detection for rate limits (HTTP 429) or quota exhaustion.
